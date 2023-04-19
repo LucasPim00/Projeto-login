@@ -33,7 +33,10 @@ section#login
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);}
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+
+    transition: width 0.5s, height 0.5s;
+    -o-transition-timing-function: ease;}
 
 section#login > div#imagem
     {display: block;
